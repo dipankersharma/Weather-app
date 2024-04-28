@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name"  spellcheck="false">
+            <button ><img src="weather-app-img\images\search.png" alt=""></button>
+        </div>
+        <div class="error">
+            <p>Invalid City name</p>
+        </div>
+        <div class="weather">
+            <img src="weather-app-img\images\drizzle.png" class="weather-img">
+            <h1 class="temp">11°c</h1>
+            <h2 class="city">patna</h2>
+            <div class="details">
+                <div class="col1">
+                    <img src="weather-app-img\images\humidity.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col1">
+                    <img src="weather-app-img\images\wind.png" alt="">
+                    <div>
+                        <p class="wind">15km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="weatherjs.js"></script>
+</body>
+</html>
